@@ -9,7 +9,7 @@ services:
       - "3001:3001"
       - "9229:9229"
     links:
-      - goof-mongo
+      - goof-docker.io/library/mongo:8.3
     depends_on:
       - goof-mongo
   goof-mongo:
