@@ -1,4 +1,4 @@
-FROM node:6-stretch
+FROM docker.io/library/node:22.23.3
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
